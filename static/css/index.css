@@ -1,0 +1,52 @@
+body {
+    background-image: url('/static/IMG_20191012_110138__01.jpg');
+    background-size: cover;
+    background-repeat: space;
+    height: 100%;
+    background-attachment: fixed;
+    color: white;
+}
+
+main {
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-title {
+    display: block;
+    line-height: 1em;
+    letter-spacing: 0.5px;
+    font-size: 4em;
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    margin-bottom: 1em;
+}
+
+.main-subtitle {
+    line-height: 1em;
+    letter-spacing: 0.5px;
+    font-size: 2em;
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+}
+
+.main-subsubtitle {
+    line-height: 1em;
+    font-size: 1.5em;
+    margin-bottom: 2em;
+    font-family: montserrat, sans-serif;
+}
+
+.link-button {
+    background-color: transparent;
+    margin-left: 1vw;
+    border: none
+}
